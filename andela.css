@@ -1,0 +1,1093 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: #173B3F;
+    width: 100%;
+}
+.nav h1{
+    color: #fff;
+    padding-inline: 40px;
+}
+
+.nav ul{
+    text-align: center;
+}
+.nav ul li {
+    display: inline-flex;
+    list-style: none;
+    width: 140px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav ul li a:hover{
+    transition: 0.18s;
+    color: #A4C8C0;
+}
+
+.sub-menu1 ul li a:hover{
+    text-decoration: underline;
+    transition: 0.15s;
+    color: #A4C8C0;
+}
+
+.sub-menu1{
+    display: none;
+}
+
+.nav ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    background: #173B3F;
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 15px;
+}
+
+.nav ul li:hover .sub-menu1 ul li{
+    display: block;
+    margin: 10px;
+    width: 150px;
+    padding: 10px;
+    border-left: 1px dotted white;
+}
+
+.tip{
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    background-color: #173B3F;
+    color: white;
+    border: 1px solid white;
+}
+
+.tip:hover{
+    transform: scale(1s);
+    background-color: #B0D6CE;
+    color: black;
+}
+
+.body-inner{
+    display: flex;
+}
+.body-inner h1{
+    padding: 50px 50px;
+    
+    font-size: 55px;
+}
+.body-inner p{
+    padding:0 60px;
+    padding-right: 500px;
+    width: 180%;
+}
+
+.pic img{
+    padding: 60px;
+    width: 150%;
+    padding-right: 900px;
+}
+.inner .body-button{
+    padding:  12px 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: #245C60;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.inner .body-button:hover{
+    transform: scale(1s);
+    color: black;
+    background-color: #B0D6CE;
+}
+
+.body2{
+    background-color: #F2FBF9;
+    text-align: center;
+}
+
+.body2 h1{
+    font-size: 40px;
+    padding: 60px;
+}
+
+.inner2 ul li{
+    display: inline;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.inner2{
+    background-color:  #DCF3F0;
+    padding: 20px 0;
+}
+
+.inner2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.body-inner2{
+    display: flex;
+    background-color: #173B3F;
+}
+.inner2a{
+    color: #fff;
+    padding: 80px;
+}
+
+.inner2a h1{
+    font-size: 50px;
+    font-family: cursive;
+    line-height: 1;
+}
+
+.inner2a p{
+    padding: 15px 0;
+    font-size: 18px;
+    width: 120%;
+}
+
+.pic2 img{
+    width: 120%;
+    padding: 80px 0 0 15px;
+}
+
+.inner-button{
+    background-color: #173B3F;
+    padding: 15px;
+    border: 1px solid #B0D6CE;
+    border-radius: 25px;
+    color: #B0D6CE;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.inner-button:hover{
+    transform: scale(3s);
+    background-color: #B0D6CE;
+    color: black;
+}
+
+.body-inner3{
+    text-align: center;
+    padding: 40px;
+}
+.body-inner3 h1{
+    font-size: 40px;
+}
+
+.body-inner3 p{
+    padding: 30px 180px;
+    font-size: 20px;
+}
+
+.bord{
+    display: flex;
+    padding-inline: 250px;
+}
+
+.btn{
+    font-size: 20px;
+    border: 2px solid #173B3F;
+    border-radius: 80px;
+    padding: 20px 70px;
+}
+
+.btn:hover{
+    transform: scale(1s);
+    background-color: #C5E5DF;
+}
+
+.tap{
+    text-align: center;
+    margin:8px 550px;
+    padding-inline: 40px;
+    border-radius: 20px;
+    width: 15%;
+    padding: 10px;
+    font-weight: 700;
+    background-color: #173B3F;
+    color: #fff;
+}
+
+.tap:hover{
+    transform: scale(1s);
+    background-color: #B0D6CE;
+    color: black;
+    border: transparent;
+}
+
+.body-inner4{
+    background-color: #DAF3EF;
+    border-radius: 100px 0 100px 0;
+    margin: 80px;
+}
+
+.inn h1{
+    text-align: center;
+    padding: 30px 250px;
+    font-size: 40px;
+}
+
+.inn p{
+    padding: 0 300px;
+    font-size: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 20% 20% 20% ;
+    padding: 40px 200px;
+    width: 150%;
+    gap: 2%;
+    font-size: 20px;
+}
+
+.btr{
+    margin: 0 0 0 500px;
+    width: 15%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #173B3F;
+    color: white;
+    font-weight: 700;
+}
+
+.btr:hover{
+    transform: scale(0.5s);
+    background-color: #B0D6CE;
+    color: black;
+    border: transparent;
+}
+
+.body-inner5{
+    padding:20px 80px;
+}
+
+.body-inner5 h1{
+    font-size: 38px;
+    width: 48%;
+}
+
+.body-inner5 p{
+    font-size: 19px;
+    width: 45%;
+    padding: 10px 0;
+}
+
+.tug{
+    padding: 25px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 20px;
+    margin: 5px;
+    background-color: white;
+    border: transparent;
+    box-shadow:  0 0 10px rgba(0, 0, 0, .1);
+}
+
+.tug:hover{
+    background-color: #C5E5DF;
+}
+
+.body-inner6{
+    display: flex;
+    background-color: #DAF3EF;
+    border-radius: 90%;
+    padding: 80px;
+}
+
+.body-inner6 img{
+    width: 500px;
+}
+
+.body-inner7{
+    background-color: #283D42;
+    padding: 60px;
+    color: #fff;
+}
+
+.body-inner7 h1{
+    width: 30%;
+}
+.body-inner7 h3{
+    width: 70%;
+    padding: 10px 0;
+    font-weight: 300;
+}
+
+.body-inner7 .bte{
+    margin: 0 0 0 80%;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #283D42;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid;
+}
+
+.bte:hover{
+    transform: scale(1s);
+    background-color: #B0D6CE;
+    color: black;
+}
+
+.body-inner8{
+    background-color: #FAFBFC;
+    padding: 80px;
+    font-size: 25px;
+}
+
+.body-inner8 p{
+    padding: 10px 0;
+}
+
+.boxes{
+    display: flex;
+    padding: 30px;
+    gap: 2%;
+}
+
+.box1, .box2, .box3, .box4{
+    background-color: #B0D6CE;
+    border-radius: 20px;
+    padding: 100px 60px 100px 60px;
+}
+
+.boxes p{
+    padding: 10px 0;
+}
+
+.foot-body{
+    background-color: #132128;
+    color: white;
+    padding: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.foot-body h1{
+    font-size: 20px;
+}
+
+.footer-sec{
+    display: flex;
+    padding: 5px;
+    line-height: 1.8;
+}
+
+.name{
+    padding: 60px;
+}
+
+.foot-body ul li:hover{
+    text-decoration: underline;
+    color: #C5E5D4;
+}
+
+.sub{
+    padding: 50px 300px;
+    background-color: #132128;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.sub h4{
+    font-weight: 100;
+}
+
+.sub h5{
+    padding: 10px;
+}
+
+.suj{
+    width: 50%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.sus{
+    width: 15%;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #28656B;
+    color: #fff;
+    font-weight: 800;
+}
+
+.end{
+    display: flex;
+    background-color: #132128;
+    color: #A2CDCD;
+    list-style: none;
+}
+.end2{
+    padding: 20px;
+    width: 300px;
+}
+
+.end ul li:hover{
+    text-decoration: underline;
+}
+
+@media (min-width: 360px) and (max-width: 800px){
+    .inner h1{
+        margin: 30px 5px;
+        padding: 10px;
+    }
+    .inner p{
+        padding: 0 20px; 
+    }
+    .body-inner{
+        flex-direction: column-reverse;
+    }
+    .body-inner p{
+        width: 100%;
+    }
+    .pic img{
+        width: 360px;
+        padding-left: 20px;
+        padding: 20px;
+    }
+    .body-button{
+        width: 70%;
+    }
+    .inner2 ul li{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .btn1:hover{
+        text-decoration: underline;
+        background-color: transparent;
+    }
+    .body-inner2{
+        flex-direction: column-reverse;
+    }
+    .inner2a h1{
+        margin: -50px;
+        width: 330px;
+        padding-block: 30px;
+        font-size: 42px;
+        padding: -20px;
+    }
+    .inner2a p{
+        margin: -50px;
+        margin-top: 30px;
+    }
+    .inner-button{
+        margin: -50px;
+        margin-top: 50px;
+        width: 140%;
+    }
+    .pic2{
+        padding-inline-end: 150px;
+        margin: -50px;
+    }
+    .body-inner3 p{
+        padding: 2px;
+        width: 110%;
+    }
+    .bord{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .btn:hover{
+        text-decoration: none;
+        background-color:  #C5E5D4;
+    }
+    .tap{
+        margin: 30px;
+        width: 300px;
+    }
+    .body-inner4{
+        width: 90%;
+        margin: 15px;
+    }
+    .inn{
+        margin-inline: -200px;
+    }
+    .inn p{
+        width: 100%;
+        padding: 0 250px;
+    
+    }
+    .body-inner4 .container{
+        flex-direction: column;
+        padding: 10px;
+        gap: 2%;
+    }
+    .btr{
+        margin: 10px;
+        width: 300px;
+        margin-bottom: 8px;
+    }
+    .body-inner5{
+        width: 210%;
+        padding: 20px;
+    }
+    .body-inner6{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .pic3 img{
+        width: 320px;
+    }
+    .body-inner7 h1{
+        width: 100%;
+    }
+    .body-inner7 h3{
+        width: 100%;
+    }
+    .boxes{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer-sec{
+        flex-direction: column;
+    }
+    .name{
+        padding: 5px;
+    }
+    .end{
+        flex-direction: column;
+        padding: 25px;
+    }
+    .sub{
+        padding: 20px;
+    }
+    .sus{
+        width: 90px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 844px){
+    .inner h1{
+        margin: 30px 5px;
+        padding: 10px;
+    }
+    .inner p{
+        padding: 0 20px; 
+    }
+    .body-inner{
+        flex-direction: column-reverse;
+    }
+    .pic img{
+        padding: 20px;
+    }
+    .body-button{
+        width: 70%;
+    }
+    .inner2 ul li{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .btn1:hover{
+        text-decoration: underline;
+        background-color: transparent;
+    }
+    .body-inner2{
+        flex-direction: column-reverse;
+    }
+    .inner2a h1{
+        margin: -50px;
+        width: 330px;
+        padding-block: 30px;
+        font-size: 42px;
+        padding: -20px;
+    }
+    .inner2a p{
+        margin: -50px;
+        margin-top: 30px;
+    }
+    .inner-button{
+        margin: -50px;
+        margin-top: 50px;
+        width: 140%;
+    }
+    .pic2{
+        padding-inline-end: 150px;
+        margin: -50px;
+    }
+    .body-inner3 p{
+        padding: 1px;
+        width: 100%;
+    }
+    .bord{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .btn:hover{
+        text-decoration: none;
+        background-color:  #C5E5D4;
+    }
+    .tap{
+        margin: 30px;
+        width: 330px;
+    }
+    .body-inner4{
+        width: 90%;
+        margin: 15px;
+    }
+    .inn{
+        margin-inline: -200px;
+    }
+    .inn p{
+        width: 100%;
+        padding: 0 250px;
+    
+    }
+    .body-inner4 .container{
+        flex-direction: column;
+        padding: 10px;
+        gap: 2%;
+    }
+    .btr{
+        margin: 10px;
+        width: 300px;
+        margin-bottom: 8px;
+    }
+    .body-inner5{
+        width: 200%;
+        padding: 20px;
+    }
+    .body-inner6{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .pic3 img{
+        width: 320px;
+    }
+    .body-inner7 h1{
+        width: 100%;
+    }
+    .body-inner7 h3{
+        width: 100%;
+    }
+    .boxes{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer-sec{
+        flex-direction: column;
+    }
+    .name{
+        padding: 5px;
+    }
+    .end{
+        flex-direction: column;
+        padding: 25px;
+    }
+    .sub{
+        padding: 20px;
+    }
+    .sus{
+        width: 90px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 896px){
+    .inner h1{
+        margin: 30px 5px;
+        padding: 10px;
+    }
+    .inner p{
+        padding: 0 20px; 
+    }
+    .body-inner{
+        flex-direction: column-reverse;
+    }
+    .pic img{
+        width: 410px;
+    }
+    .body-button{
+        width: 70%;
+    }
+    .inner2 ul li{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .btn1:hover{
+        text-decoration: underline;
+        background-color: transparent;
+    }
+    .body-inner2{
+        flex-direction: column-reverse;
+    }
+    .inner2a h1{
+        margin: -50px;
+        width: 330px;
+        padding-block: 30px;
+        font-size: 42px;
+        padding: -20px;
+    }
+    .inner2a p{
+        margin: -50px;
+        margin-top: 30px;
+    }
+    .inner-button{
+        margin: -50px;
+        margin-top: 50px;
+        width: 140%;
+    }
+    .pic2{
+        padding-inline-end: 150px;
+        margin: -50px;
+    }
+    .body-inner3 p{
+        padding: 2px;
+        width: 100%;
+    }
+    .bord{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .btn:hover{
+        text-decoration: none;
+        background-color:  #C5E5D4;
+    }
+    .tap{
+        margin: 30px;
+        width: 350px;
+    }
+    .body-inner4{
+        width: 90%;
+        margin: 15px;
+    }
+    .inn{
+        margin-inline: -200px;
+    }
+    .inn p{
+        width: 100%;
+        padding: 0 250px;
+    
+    }
+    .body-inner4 .container{
+        flex-direction: column;
+        padding: 10px;
+        gap: 2%;
+    }
+    .btr{
+        margin: 10px;
+        width: 300px;
+        margin-bottom: 8px;
+    }
+    .body-inner5{
+        width: 210%;
+        padding: 20px;
+    }
+    .body-inner6{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .pic3 img{
+        width: 320px;
+    }
+    .body-inner7 h1{
+        width: 100%;
+    }
+    .body-inner7 h3{
+        width: 100%;
+    }
+    .boxes{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer-sec{
+        flex-direction: column;
+    }
+    .name{
+        padding: 5px;
+    }
+    .end{
+        flex-direction: column;
+        padding: 25px;
+    }
+    .sub{
+        padding: 20px;
+    }
+    .sus{
+        width: 90px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 812px){
+    .inner h1{
+        margin: 30px 5px;
+        padding: 10px;
+    }
+    .inner p{
+        padding: 0 20px; 
+    }
+    .body-inner{
+        flex-direction: column-reverse;
+    }
+    .pic img{
+        width: 370px;
+    }
+    .body-button{
+        width: 70%;
+    }
+    .inner2 ul li{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .btn1:hover{
+        text-decoration: underline;
+        background-color: transparent;
+    }
+    .body-inner2{
+        flex-direction: column-reverse;
+    }
+    .inner2a h1{
+        margin: -50px;
+        width: 330px;
+        padding-block: 30px;
+        font-size: 42px;
+        padding: -20px;
+    }
+    .inner2a p{
+        margin: -50px;
+        margin-top: 30px;
+    }
+    .inner-button{
+        margin: -50px;
+        margin-top: 50px;
+        width: 140%;
+    }
+    .pic2{
+        padding-inline-end: 150px;
+        margin: -50px;
+    }
+    .body-inner3 p{
+        padding: 2px;
+        width: 100%;
+    }
+    .bord{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .btn:hover{
+        text-decoration: none;
+        background-color:  #C5E5D4;
+    }
+    .tap{
+        margin: 30px;
+        width: 320px;
+    }
+    .body-inner4{
+        width: 90%;
+        margin: 15px;
+    }
+    .inn{
+        margin-inline: -200px;
+    }
+    .inn p{
+        width: 100%;
+        padding: 0 250px;
+    
+    }
+    .body-inner4 .container{
+        flex-direction: column;
+        padding: 10px;
+        gap: 2%;
+    }
+    .btr{
+        margin: 10px;
+        width: 300px;
+        margin-bottom: 8px;
+    }
+    .body-inner5{
+        width: 210%;
+        padding: 20px;
+    }
+    .body-inner6{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .pic3 img{
+        width: 320px;
+    }
+    .body-inner7 h1{
+        width: 100%;
+    }
+    .body-inner7 h3{
+        width: 100%;
+    }
+    .boxes{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer-sec{
+        flex-direction: column;
+    }
+    .name{
+        padding: 5px;
+    }
+    .end{
+        flex-direction: column;
+        padding: 25px;
+    }
+    .sub{
+        padding: 20px;
+    }
+    .sus{
+        width: 90px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .inner h1{
+        margin: 30px 5px;
+        padding: 10px;
+    }
+    .inner p{
+        padding: 0 20px; 
+    }
+    .body-inner{
+        flex-direction: row;
+    }
+    .pic img{
+        width: 380px;
+        margin-top: 100px;
+        
+    }
+    .body-button{
+        width: 50%;
+    }
+    .inner2 ul li{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    .btn1:hover{
+        text-decoration: underline;
+        background-color: transparent;
+    }
+    .body-inner2{
+        flex-direction: row;
+    }
+    .inner2a h1{
+        margin: -50px;
+        width: 450px;
+        font-size: 42px;
+    }
+    .inner2a p{
+        margin: -50px;
+        margin-top: 30px;
+    }
+    .inner-button{
+        margin: -50px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .pic2{
+        width: 200%;
+        padding: 90px 100px 0 0;
+    }
+    .body-inner3 p{
+        padding: 2px;
+        width: 100%;
+    }
+    .bord{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .btn:hover{
+        text-decoration: none;
+        background-color:  #C5E5D4;
+    }
+    .tap{
+        margin: 30px;
+        width: 90%;
+    }
+    .body-inner4{
+        width: 95%;
+        margin: 15px;
+    }
+    .inn{
+        margin-inline: -200px;
+    }
+    .inn p{
+        width: 100%;
+        padding: 0 250px;
+    
+    }
+    .body-inner4 .container{
+        flex-direction: column;
+        padding: 10px;
+        gap: 2%;
+    }
+    .btr{
+        margin: 20px;
+        width: 300px;
+        margin-bottom: -50px;
+        margin-inline: 190px;
+    }
+    .body-inner5{
+        width: 210%;
+        padding: 20px;
+    }
+    .body-inner6{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .pic3 img{
+        width: 320px;
+    }
+    .body-inner7 h1{
+        width: 100%;
+    }
+    .body-inner7 h3{
+        width: 100%;
+    }
+    .boxes{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer-sec{
+        flex-direction: column;
+    }
+    .name{
+        padding: 5px;
+    }
+    .end{
+        flex-direction: column;
+        padding: 25px;
+    }
+    .sub{
+        padding: 20px;
+    }
+    .sus{
+        width: 90px;
+        height: 35px;
+    }
+}

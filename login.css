@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 80%;
+    padding: 40px 12.5%;
+    font-size: 20px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #245C60;
+}
+.wrapper{
+    width: 420px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 70%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid grey ;
+    border-radius: 5px;
+}
+::placeholder{
+    padding: 8px;
+}
+.btn{
+    padding: 5px;
+    width: 100%;
+    border-radius: 40px;
+    height: 40px;
+    background-color: #6DE388;
+    border: none;
+    margin: 10px 0;
+    font-weight: 800;
+}
+.btn:hover{
+    transition: 0.15s;
+    background-color: #198038;
+}
+.register-link{
+    padding: 10px 80px;
+}
+.register-link a{
+    color: #198038;
+    font-weight: 700;
+}
+.end{
+    padding: 0 120px;
+}
+.end a{
+    color: #198038;
+    font-weight: 700;
+}
+
+@media (min-width: 390px) and (max-width: 844px){
+    .wrapper{
+       width: 350px;
+       padding: 50px 10px;
+    }
+    .register-link{
+       padding: 10px 50px;
+    }
+    .end{
+        padding: 0 90px;
+    }
+    .header{
+        right: 60%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 800px){
+    .wrapper{
+       width: 330px;      
+       padding: 50px 10px;
+       margin-bottom: 20%;
+    }
+    .register-link{
+       padding: 10px 50px;
+    }
+    .end{
+        padding: 0 70px;
+    }
+    .header{
+        right: 60%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 568px){
+    .wrapper{
+       width: 300px;
+       padding: 10px 10px;
+    }
+    .register-link{
+       padding: 10px 30px;
+    }
+    .end{
+        padding: 0 70px;
+    }
+    .header{
+        right: 60%;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 896px){
+    .wrapper{
+       width: 380px;
+       padding: 50px 10px;
+    }
+    .register-link{
+       padding: 10px 50px;
+    }
+    .end{
+        padding: 0 90px;
+    }
+    .header{
+        right: 60%;
+    }
+} 
+    
+@media (min-width: 768px) and (max-width: 1024px){
+    .wrapper{
+       width: 600px;
+       padding: 50px 10px;
+    }
+    .register-link{
+        text-align: center;
+    }
+    .end{
+        text-align: center;
+    }
+    .header{
+        right: 70%;
+        font-size: 30px;
+    }
+}
